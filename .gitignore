@@ -1,0 +1,29 @@
+# Python Virtual Environment
+.venv/
+
+# Datasets - Ignore the large data folders and files
+data/rfcx-species-audio-detection/
+data/ESC-50-master/
+data/snippets/
+data/archive.zip
+
+# Saved and Pre-trained Models - These are large and can be re-downloaded/re-trained
+models/
+pretrained_models/
+*.bin
+
+# Python Caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# IDE / OS specific
+.vscode/
+.DS_Store
+
+# Output files
+*.png

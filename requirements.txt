@@ -1,0 +1,15 @@
+# requirements.txt
+
+tensorflow
+pandas
+librosa
+matplotlib
+transformers
+torch
+torchaudio
+tqdm
+audiomentations==0.33.0
+scikit-learn
+soundfile
+speechbrain
+pyannote.metrics
